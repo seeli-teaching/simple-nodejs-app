@@ -1,4 +1,17 @@
 {
   "name": "docker-exercise",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "processenv": "^3.0.9",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "sqlite3": "^5.0.2",
+    "uuid": "^3.3.3",
+    "wait-port": "^0.2.2",
+    "cookie-parser": "^1.4.6",
+    "hbs": "^4.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
 }
