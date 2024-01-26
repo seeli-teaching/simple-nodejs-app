@@ -13,5 +13,5 @@ CMD [ "node", "app.js" ]
 # 4. Combine the two RUN commands into one
 # 5. Expose port 3000
 # 5. Set environment variable MESSAGE in the Dockerfile instead of passing it in at runtime
-# 6. Pass the environment variable MESSAGE to the Dockerfile instead of hardcoding it
+# 6. Pass the environment variable MESSAGE to the Dockerfile instead of hardcoding it (ARG MESSAGE="Hello World!!!!!" ENV MESSAGE=${MESSAGE})
 # 7. Use a non-root user (--chown=node:node as parameter to COPY)
