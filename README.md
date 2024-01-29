@@ -6,6 +6,9 @@ The most simple nodeJS app. A Docker exercise
 FROM ubuntu
 
 RUN apt-get update
+
 RUN apt-get -y upgrade
+
 RUN apt-get -y node
+
 RUN apt-get -y npm
