@@ -1,10 +1,19 @@
-{
+{  
+  "name": "simple-nodejs-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon -L app.js"
+  },
   "dependencies": {
     "gm": "^1.25.1",
     "helmet": "^8.1.0",
     "mongoose": "^8.14.0",
     "processenv": "^3.0.9",
+    "nodemon": "^3.0.3",
     "react": "^19.1.0",
     "sharp": "^0.34.1"
   }
+  
 }
